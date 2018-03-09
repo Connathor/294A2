@@ -27,5 +27,50 @@
     margin-bottom: 10px;
     width: 750px;
     background-color: #ccccff;
+}
+
+#pokemon1{
+    width: 650px;
+    border: 1.5px solid black;
+    margin: auto;
+    margin-bottom: 25px;
+    
+    
+    
+}
+#pokemon2{
+    width: 650px;
+    border: 1.5px solid black;
+    margin: auto;
+    margin-bottom: 25px;
+    
+}
+#pokemon3{
+    width: 650px;
+    border: 1.5px solid black;
+    margin: auto;
+    
+}
+#pic{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 10px;
+    
 
 }
+#check{
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#select{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+form{
+    text-align: left;
+}
+
