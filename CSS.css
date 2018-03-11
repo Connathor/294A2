@@ -33,7 +33,7 @@
     width: 650px;
     border: 1.5px solid black;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     
     
     
@@ -42,14 +42,35 @@
     width: 650px;
     border: 1.5px solid black;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     
 }
 #pokemon3{
     width: 650px;
     border: 1.5px solid black;
     margin: auto;
+    margin-top: 20px;
     
+}
+#pokemon1 h1{
+    font-size: small;
+    color:darkslateblue;
+}
+#pokemon2 h1{
+    font-size: small;
+    color: darkslateblue;
+}
+#pokemon3 h1{
+    font-size: small;
+    color: darkslateblue;
+}
+#all hr{
+    
+    width: 600px;
+    border-color: black;
+    background-color: black;
+
 }
 #pic{
     display: inline-block;
@@ -72,5 +93,21 @@
 }
 form{
     text-align: left;
+}
+#shipping h1{
+    font-size: small;
+    color: brown
+}
+#shipping form{
+    text-align: right;
+    display: inline-block;
+}
+#message{
+    text-align: left;
+    padding: 20px;
+}
+#messagebox{
+    width: 300px;
+    height: 60px;
 }
 

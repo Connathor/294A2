@@ -37,9 +37,8 @@
                     
                     
                 </div>
-
             </div>
-
+            <hr>
             <div id="pokemon2">
                 
                 <div id="pic">
@@ -57,10 +56,15 @@
                     <br><br>
                     Free to a good trainer!
                     <br><br>
+                    <select>
+                      <option value="Calm">Calm</option>
+                      <option value="Aggressive">Aggressive</option>
+                      <option value="Silly">Silly</option>
+                    </select>
                 </div>
                 
             </div>
-
+            <hr>
             <div id="pokemon3">
                                 
                 <div id="pic">
@@ -78,21 +82,32 @@
                     <br><br>
                     Free to a good trainer!
                     <br><br>
+                    <form>
+                      <input type="checkbox" name="Calm" value="male" checked> Calm<br>
+                      <input type="checkbox" name="Aggressive" value="female"> Silly<br>
+                      <input type="checkbox" name="Silly" value="other"> Agile
+                    </form>
                 </div>
             </div>
 
             <div id="shipping">
                 <h1>Shipping Information:</h1>
+                <form action="/action_page.php">
+                    Your name: <input type="text" name="name"><br><br>
+                    Your phone number: <input type="text" name="num"><br><br>
+                    Shipping address: <input type="text" name="address"><br><br>
+                    Should we add you to our mailing list?
+                    <input type="radio" name="Yes" value="yes" checked> Yes
+                    <input type="radio" name="No" value="no"> No
+                    <br><br>
+                </form>
             </div>
-
-
-            <div id="footer">
-
-            </div>
-
             <div id="message">
-
-
+                Message or any particular instructions:
+                <br>
+                <input id="messagebox" type="text" name="message">
+                <br><br>
+                <input type="submit" value="Submit">
             </div>
         </body>
     </div>
