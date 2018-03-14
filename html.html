@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="CSS.css"/>
     </head>
     <div id="all">
+        <form>
         <body>
             <div id="header">
                 <h1>Starter Pokemon</h1>
@@ -82,17 +83,17 @@
                     <br><br>
                     Free to a good trainer!
                     <br><br>
-                    <form>
+                    <div id="input1">
                       <input type="checkbox" name="Calm" value="male" checked> Calm<br>
                       <input type="checkbox" name="Aggressive" value="female"> Silly<br>
                       <input type="checkbox" name="Silly" value="other"> Agile
-                    </form>
+                    </div>
                 </div>
             </div>
 
             <div id="shipping">
                 <h1>Shipping Information:</h1>
-                <form action="/action_page.php">
+                <div id="input2">
                     Your name: <input type="text" name="name"><br><br>
                     Your phone number: <input type="text" name="num"><br><br>
                     Shipping address: <input type="text" name="address"><br><br>
@@ -100,7 +101,7 @@
                     <input type="radio" name="Yes" value="yes" checked> Yes
                     <input type="radio" name="No" value="no"> No
                     <br><br>
-                </form>
+                </div>
             </div>
             <div id="message">
                 Message or any particular instructions:
@@ -110,5 +111,6 @@
                 <input type="submit" value="Submit">
             </div>
         </body>
+    </form>
     </div>
 </html>

@@ -27,6 +27,7 @@
     margin-bottom: 10px;
     width: 750px;
     background-color: #ccccff;
+    text-align: center;
 }
 
 #pokemon1{
@@ -98,8 +99,12 @@ form{
     font-size: small;
     color: brown
 }
-#shipping form{
+#input2{
     text-align: right;
+    display: inline-block;
+}
+#input1{
+    text-align: left;
     display: inline-block;
 }
 #message{
